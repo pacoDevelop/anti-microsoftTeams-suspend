@@ -74,7 +74,7 @@
   <img src="https://user-images.githubusercontent.com/70912492/202856250-fd255f71-d3f3-4cd3-b8b8-accc9681bb38.PNG" alt="slackyellow" width="100" height="100">
  <br />
  <br />
- Este script fue desarrollado para impedir que las aplicaciones entre en modo ausente todo el rato, ya que para las empresas que estes ausente aunque hayas ido al servicio
+ Este script fue desarrollado para impedir que las aplicaciones entren en modo ausente. Ya que para las empresas que estes ausente aunque hayas ido al servicio
  esta mal visto, con este script siempre estarás conectado.
 <br />
  <br />
