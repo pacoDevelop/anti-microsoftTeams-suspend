@@ -108,7 +108,7 @@
 
 #### Sin descargar
 
-1. Si no quieres descargar el script por que tu empresa no permite descargar software de terceros o por alguna otra razón, entonces copia el script.
+1. Si no quieres descargar el script por que tu empresa no permite descargar software de terceros o por alguna u otra razón, entonces copia el script.
 2. Abre un terminal de powershell y pega el código luego pulse 'Enter' y listo ya tendrás el script ejecutándose.
 3. Para finalizar el script cierre el terminal.
 
