@@ -74,8 +74,7 @@
   <img src="https://user-images.githubusercontent.com/70912492/202856250-fd255f71-d3f3-4cd3-b8b8-accc9681bb38.PNG" alt="slackyellow" width="100" height="100">
  <br />
  <br />
- Este script fue desarrollado para impedir que las aplicaciones entren en modo ausente. Ya que para las empresas que estes ausente aunque hayas ido al servicio
- esta mal visto, con este script siempre estarás conectado.
+ Este script fue desarrollado para impedir que las aplicaciones entren en modo ausente. Hoy en día, con el teletrabajo, es importante estar siempre conectado aunque en ese momento no estés frente al ordenador. Con este script, siempre aparecerás online en plataformas como Teams, Meet o Slack.
 <br />
  <br />
 
