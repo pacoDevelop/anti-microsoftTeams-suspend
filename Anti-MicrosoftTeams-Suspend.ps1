@@ -4,7 +4,7 @@ Echo "Activate Anti-MicrosoftTeams-Suspend... by pacoDevelop"
 $WShell = New-Object -com "Wscript.Shell" 
 Add-Type -AssemblyName System.Windows.Forms
 
-$SLEEPTIME=60*2.5
+$SLEEPTIME=60*1
 $x=0
 $y=0
 
