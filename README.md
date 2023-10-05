@@ -137,9 +137,10 @@ El modo de uso es silencioso, si dejas el terminal abierto seguirá funcionando 
 ## Roadmap
 - [x] Detectar si hay movimiento del ratón para cancelar pulsación de tecla.
 - [x] Testeo del script en Teams.
-- [ ] Testeo del script en Slack.
-- [ ] Testeo del script en Meet.
-- [ ] Testeo del script en otras aplicaciones con estado.
+- [x] Testeo del script en Slack.
+- [x] Testeo del script en Meet.
+- [x] Testeo del script en otras aplicaciones con estado.
+- [x] El pc no entra en suspensión aunque tu organización lo configure para ello.
 
 Consulte los [open issues](https://github.com/pacoDevelop/anti-microsoftTeams-suspend/issues) para obtener una lista completa de las características propuestas (y los problemas conocidos).
 <p align="right">(<a href="#readme-top">Volver arriba</a>)</p>
