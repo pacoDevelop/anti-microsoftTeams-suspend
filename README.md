@@ -74,7 +74,7 @@
   <img src="https://user-images.githubusercontent.com/70912492/202856250-fd255f71-d3f3-4cd3-b8b8-accc9681bb38.PNG" alt="slackyellow" width="100" height="100">
  <br />
  <br />
- Este script fue desarrollado para impedir que las aplicaciones entren en modo ausente. Hoy en día, con el teletrabajo, es importante estar siempre conectado aunque en ese momento no estés frente al ordenador. Con este script, siempre aparecerás online en plataformas como Teams, Meet o Slack.
+Este script ha sido diseñado para evitar que las aplicaciones se suspendan automáticamente o que el sistema entre en modo de reposo según la configuración definida por tu organización. Por ejemplo, si estás compilando un programa y necesitas ausentarte, es frustrante que tu ordenador se apague debido a la configuración de suspensión automática de la organización, que está programada para activarse en un minuto. Este script te ayuda a mantener tu sistema activo y operativo, protegiendo tus tareas en curso de interrupciones no deseadas.
 <br />
  <br />
 
