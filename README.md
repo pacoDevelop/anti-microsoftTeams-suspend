@@ -1,6 +1,3 @@
-
-
-
 <a name="readme-top"></a>
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -10,9 +7,6 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/pacoDevelop/anti-microsoftTeams-suspend">
@@ -23,11 +17,10 @@
 <h3 align="center">Anti-MicrosoftTeams-Suspend</h3>
 
   <p align="center">
-	Script en PowerShell para que Teams, Meet, Slack u otra plataforma nunca entre en modo ausente.
+    PowerShell script to prevent Microsoft Teams, Google Meet, Slack, or other platforms from switching to Away mode.
     <br />
-    <a href="https://github.com/pacoDevelop/anti-microsoftTeams-suspend"><strong>Explorar documentación »</strong></a>
-    <br />
-    <br />
+    <a href="https://github.com/pacoDevelop/anti-microsoftTeams-suspend"><strong>Explore Documentation »</strong></a>
+    <br /><br />
     <a href="https://github.com/pacoDevelop/anti-microsoftTeams-suspend">View Demo</a>
     ·
     <a href="https://github.com/pacoDevelop/anti-microsoftTeams-suspend/issues">Report Bug</a>
@@ -36,160 +29,137 @@
   </p>
 </div>
 
+---
 
+## Table of Contents
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+- [About The Project](#about-the-project)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
 
+---
 
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
+
 <div align="center">
 <img src="https://user-images.githubusercontent.com/70912492/202856248-a0a654e6-063d-40fc-9bed-26f6347d0413.PNG"
      alt="teams-yellow" width="100" height="100">
-  <img src="https://user-images.githubusercontent.com/70912492/202856250-fd255f71-d3f3-4cd3-b8b8-accc9681bb38.PNG" alt="slackyellow" width="100" height="100">
- <br />
- <br />
-Este script ha sido diseñado para evitar que las aplicaciones se suspendan automáticamente o que el sistema entre en modo de reposo según la configuración definida por tu organización. Por ejemplo, si estás compilando un programa y necesitas ausentarte, es frustrante que tu ordenador se apague debido a la configuración de suspensión automática de la organización, que está programada para activarse en un minuto. Este script te ayuda a mantener tu sistema activo y operativo, protegiendo tus tareas en curso de interrupciones no deseadas.
-<br />
- <br />
-
-
+<img src="https://user-images.githubusercontent.com/70912492/202856250-fd255f71-d3f3-4cd3-b8b8-accc9681bb38.PNG" alt="slackyellow" width="100" height="100">
+<br /><br />
 </div>
-<p align="right">(<a href="#readme-top">Volver arriba</a>)</p>
 
+This PowerShell script is designed to prevent applications from automatically going into idle or Away mode, and to stop the system from entering sleep according to organizational policies.  
 
+For example, when compiling a program or performing long-running tasks, automatic sleep settings enforced by your organization can interrupt your work. This script keeps your system active, ensuring your tasks continue uninterrupted and your status remains "Available."
 
-### Built With
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
-* [![PowerShell]][powershell-url] 
+---
 
-<p align="right">(<a href="#readme-top">Volver arriba</a>)</p>
+## Built With
 
+* [![PowerShell]][powershell-url] PowerShell
 
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+---
+
 ## Getting Started
 
- Para obtener una copia local en funcionamiento, siga estos sencillos pasos de ejemplo.
+Follow these instructions to get a local copy up and running.
 
 ### Prerequisites
 
-* Powershell en windows
-			
+* PowerShell on Windows
+
 ### Installation
 
-1. Para iniciar el script hay dos maneras.
+There are two ways to start the script:
 
-#### Sin descargar
+#### Without Downloading
 
-1. Si no quieres descargar el script por que tu empresa no permite descargar software de terceros o por alguna u otra razón, entonces copia el script del fichero copyClipoboard.
-2. Abre un terminal de powershell y pega el código luego pulse 'Enter' y listo ya tendrás el script ejecutándose.
-3. Para finalizar el script cierre el terminal.
+1. If downloading is restricted by your organization, copy the script from the `copyClipboard.txt` file.
+2. Open a PowerShell terminal, paste the code, and press `Enter`.
+3. The script will start running immediately. Close the terminal to stop it.
 
-#### Descargando
+#### Downloading
 
-1. En el caso de que quiera tener el script, descárguelo, puede descargarlo [desde aquí (botón derecho del ratón y guardar enlace como)](https://github.com/pacoDevelop/anti-microsoftTeams-suspend/raw/main/Anti-MicrosoftTeams-Suspend.ps1)
-2.	Botón derecho del ratón sobre el fichero descargado y ejecutar con powershell.
-3. Para finalizar el script cierre el terminal.
+1. Download the script [here (right-click and Save As)](https://github.com/pacoDevelop/anti-microsoftTeams-suspend/raw/main/Anti-MicrosoftTeams-Suspend.ps1).
+2. Right-click the downloaded file and select **Run with PowerShell**.
+3. Close the terminal to stop the script.
 
-<p align="right">(<a href="#readme-top">Volver arriba</a>)</p>
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
+---
 
-
-<!-- USAGE EXAMPLES -->
 ## Usage
 
-El modo de uso es silencioso, si dejas el terminal abierto seguirá funcionando si lo cierras dejará de funcionar.
+The script runs silently in the background. Leaving the terminal open allows it to continue working; closing it stops the script.
 
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
+---
 
-
-<p align="right">(<a href="#readme-top">Volver arriba</a>)</p>
-
-
-
-<!-- ROADMAP -->
 ## Roadmap
-- [x] Detectar si hay movimiento del ratón para cancelar pulsación de tecla.
-- [x] Testeo del script en Teams.
-- [x] Testeo del script en Slack.
-- [x] Testeo del script en Meet.
-- [x] Testeo del script en otras aplicaciones con estado.
-- [x] El pc no entra en suspensión aunque tu organización lo configure para ello.
 
-Consulte los [open issues](https://github.com/pacoDevelop/anti-microsoftTeams-suspend/issues) para obtener una lista completa de las características propuestas (y los problemas conocidos).
-<p align="right">(<a href="#readme-top">Volver arriba</a>)</p>
+- [x] Detect mouse movement to cancel simulated key presses.
+- [x] Test script with Microsoft Teams.
+- [x] Test script with Slack.
+- [x] Test script with Google Meet.
+- [x] Test script with other status-aware applications.
+- [x] Prevent the PC from entering sleep mode even under organizational enforcement.
 
+See [open issues](https://github.com/pacoDevelop/anti-microsoftTeams-suspend/issues) for a complete list of proposed features and known issues.
 
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+---
+
 ## Contributing
-Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas es **muy apreciada** .
 
-Si tiene una sugerencia que mejoraría esto, bifurque el repositorio y cree una solicitud de extracción. También puede simplemente abrir un problema con la etiqueta "mejora". ¡No olvides darle una estrella al proyecto! ¡Gracias de nuevo!
+Contributions make the open-source community an incredible place to learn, inspire, and create. Any contribution you make is **greatly appreciated**.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">Volver arriba</a>)</p>
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
+---
 
-
-<!-- LICENSE -->
 ## License
 
-Distribuido bajo la licencia GNU General Public License v3.0 . Mire `LICENSE.txt` para obtener más información.
+Distributed under the GNU General Public License v3.0. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">Volver arriba</a>)</p>
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
+---
 
-
-<!-- CONTACT -->
 ## Contact
 
 pacoDevelop - [@pacohernandezsa](https://twitter.com/pacohernandezsa) - franciscohernandezsantos3@gmail.com
 
 Project Link: [https://github.com/pacoDevelop/anti-microsoftTeams-suspend](https://github.com/pacoDevelop/anti-microsoftTeams-suspend)
 
-<p align="right">(<a href="#readme-top">Volver arriba</a>)</p>
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
+---
 
-
-<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 * [https://img.shields.io](https://img.shields.io)
 
-
-<p align="right">(<a href="#readme-top">Volver arriba</a>)</p>
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
 
 
